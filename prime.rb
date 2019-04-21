@@ -4,7 +4,8 @@ require "pry"
 def prime?(num)
 non_primes = []
 primes = []
-
+if num <= 1
+  non_primes.push()
 
 #   if num % 2..Float::INFINITY == 0 || num < 0
 #     # binding.pry
