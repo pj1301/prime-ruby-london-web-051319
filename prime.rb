@@ -4,11 +4,13 @@ require "pry"
 def prime?(num)
 non_primes = []
 primes = []
-# for i in 2..Float::INFINITY
-#   if num <= 1
-#     non_primes.push()
-#   elsif num = 2
-#       primes.push(num)
+for i in 2..Math.sqrt(num)
+  if num <= 1
+    non_primes.push()
+  elsif num = 2
+      primes.push(num)
+    end
+  end
 #     elsif num > 2 && num % i == 0
 #       non_primes.push(num)
 #     else
@@ -25,4 +27,6 @@ primes = []
 #     true
 #   end
 # end
+
+
 2..Math.sqrt(num).each
