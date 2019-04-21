@@ -4,7 +4,7 @@ require "pry"
 def prime?(num)
 non_primes = []
 primes = []
-for i in 2..num
+for i in 2..Float::INFINITY
   if num <= 1
     non_primes.push()
   elsif num = 2
