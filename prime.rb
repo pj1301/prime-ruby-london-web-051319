@@ -25,3 +25,4 @@ primes = []
 #     true
 #   end
 # end
+2..Math.sqrt(num).each
