@@ -24,3 +24,4 @@ def prime?(num)
     end
     primes.include?(num) ? true : false
 end
+end
