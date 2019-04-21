@@ -10,6 +10,6 @@ def prime?(num)
 #   end
 # end
 
-num > 1 && num % 1..Float::INFINITY != 0 ? true : false
+num > 1 && num % 1..100 != 0 ? true : false
 binding.pry
 end
