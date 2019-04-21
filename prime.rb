@@ -6,7 +6,7 @@ def prime?(num)
     return true
   elsif num < 0 || num % 1..Float::INFINITY != 0
     return false
-    binding.pry
+binding.pry
   # else
   #   return false
   end
