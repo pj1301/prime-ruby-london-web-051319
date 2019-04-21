@@ -1,6 +1,8 @@
 require "pry"
 
 # Add  code here!
+non_primes = []
+
 def prime?(num)
 #   if num % 1..Float::INFINITY == 0 || num < 0
 #     # binding.pry
@@ -15,6 +17,7 @@ def prime?(num)
 
   for i in 2..num - 1
     if num % i == 0
+
 
 
 end
