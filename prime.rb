@@ -15,8 +15,8 @@ for i in 2..num
       primes.push(num)
     end
     primes.include?(num) ? true : false
-    end
-    end
+  end
+end
 
 #   if num % 2..Float::INFINITY == 0 || num < 0
 #     # binding.pry
