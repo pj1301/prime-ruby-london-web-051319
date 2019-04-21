@@ -17,10 +17,10 @@ def prime?(num)
 # binding.pry
   for i in 2..num - 1
     if num % i == 0
-      binding.pry
       non_primes.push(num)
     else
       primes.push(num)
+      binding.pry
     end
     primes.include?(num) ? true : false
 end
