@@ -10,5 +10,5 @@ def prime?(num)
 #   end
 # end
 
-num > 0 && num % 2..Float::INFINITY != 0 ? true : false
+num > 1 && num % 1..Float::INFINITY != 0 ? true : false
 end
