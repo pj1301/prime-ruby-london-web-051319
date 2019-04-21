@@ -16,7 +16,6 @@ def prime?(num)
 # num > 1 && num % 2..Float::INFINITY != 0 ? true : false
 # binding.pry
   for i in 2..num - 1
-binding.pry
     if num % i == 0
       non_primes.push(num)
     else
