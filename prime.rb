@@ -11,4 +11,5 @@ def prime?(num)
 # end
 
 num > 1 && num % 1..Float::INFINITY != 0 ? true : false
+binding.pry
 end
