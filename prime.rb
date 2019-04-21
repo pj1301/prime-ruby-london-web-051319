@@ -2,7 +2,7 @@ require "pry"
 
 # Add  code here!
 def prime?(num)
-case num
+case primes
 when num % 1..Float::INFINITY == 0
   true
 when num < 0 || num % 1..Float::INFINITY != 0
