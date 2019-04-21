@@ -18,9 +18,9 @@ def prime?(num)
 # num > 1 && num % 2..Float::INFINITY != 0 ? true : false
 # binding.pry
   for i in 2..num
-    if num = 2 
+    if num = 2
       primes.push(num)
-    if num % i == 0
+    elsif num > 2 && num % i == 0
       non_primes.push(num)
     else
       primes.push(num)
