@@ -4,7 +4,7 @@ def prime?(num)
     return true
   else num < 0 ||  num % 1..Float::INFINITY != 0
     return false
-  else
-    return false
+  # else
+  #   return false
   end
 end
