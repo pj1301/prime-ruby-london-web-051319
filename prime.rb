@@ -1,10 +1,11 @@
 require "pry"
 
 # Add  code here!
+def prime?(num)
 non_primes = []
 primes = []
 
-def prime?(num)
+
 #   if num % 2..Float::INFINITY == 0 || num < 0
 #     # binding.pry
 #     false
