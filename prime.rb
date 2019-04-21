@@ -14,7 +14,7 @@ def prime?(num)
 # binding.pry
 
   for i in 2..num - 1
-    if n % i == 0
+    if num % i == 0
 
 
 end
