@@ -2,6 +2,7 @@ require "pry"
 
 # Add  code here!
 non_primes = []
+primes = []
 
 def prime?(num)
 #   if num % 1..Float::INFINITY == 0 || num < 0
@@ -17,7 +18,9 @@ def prime?(num)
 
   for i in 2..num - 1
     if num % i == 0
-
-
-
+      non_primes.push(num)
+    else
+      primes.push(num)
+    end
+    primes.include?(num) ? true : false
 end
