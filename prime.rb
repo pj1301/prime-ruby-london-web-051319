@@ -8,6 +8,5 @@ def prime?(num)
   elsif num % 1..Float::INFINITY != 0
     true
   else
-
   end
 end
